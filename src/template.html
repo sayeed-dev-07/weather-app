@@ -1,30 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="main-container">
-        <div class="input-container">
-            <label for="data-input">Enter a city name : </label>
-            <input name="data-input" id="data-input" type="text">
-            <label for="checkbox">Enter Your Preference : </label>
-            <select name="checkbox" id="checkbox">
-                <option value="celcius">&deg;C
-                </option>
-                <option value="fahrenheight">&deg;F
-                </option>
-            </select>
+      <div class="input-container">
+        <label for="data-input">Enter a city name : </label>
+        <input name="data-input" id="data-input" type="text" />
+        <label for="checkbox">Enter Your Preference : </label>
+        <select name="checkbox" id="checkbox">
+          <option value="celcius">&deg;C</option>
+          <option value="fahrenheight">&deg;F</option>
+        </select>
+      </div>
+      <div class="result-container">
+        <div class="giphy-area">
+          <div class="img-container">
+            <img
+              src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHF6MHFqNHJhYWtsaDdvNjJibmUwcnR1aXFzbnF6Z25peHUwanJyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEjI6SIIHBdRxXI40/giphy.webp"
+              alt=""
+            />
+          </div>
+          
+          <div class="mid-container">
+            <div class="location-info">
+                <p class="place-name"></p>
+                <p class="country-name"></p>
+              </div>
+              <div class="temp-info">
+                <p class="current-temp"></p>
+                <p class="current-date"></p>
+                <p class="sky-condition"></p>
+              </div>
+          </div>
+
         </div>
-        <div class="result-container">
-            <div class="giphy-area">
-                <div class="img-container">
-                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHF6MHFqNHJhYWtsaDdvNjJibmUwcnR1aXFzbnF6Z25peHUwanJyaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEjI6SIIHBdRxXI40/giphy.webp" alt="">
-                </div>
+
+        <div class="details-container">
+            <p>Today's weather details </p>
+            <div class="feelsLike">
+                <img src="../public/images/feelsLike.svg" alt="">
+                <p>Feels Like </p>
+                <span class="feelsLike-span"></span>
+            </div>
+            <div class="humidity">
+                <img src="../public/images/humidity.svg" alt="">
+                <p>Feels Like </p>
+                <span class="humidity-span"></span>
+            </div>
+            <div class="rain">
+                <img src="../public/images/rain.svg" alt="">
+                <p>Feels Like </p>
+                <span class="rain-span"></span>
+            </div>
+            <div class="uvIndex">
+                <img src="../public/images/uvIndex.svg" alt="">
+                <p>Feels Like </p>
+                <span class="uvIndex-span"></span>
+            </div>
+            <div class="wind">
+                <img src="../public/images/wind.svg" alt="">
+                <p>Feels Like </p>
+                <span class="wind-span"></span>
             </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
