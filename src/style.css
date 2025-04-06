@@ -1,5 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+#rain-svg {
+  height: 3.3rem;
+}
+img {
+  height: 3.3rem;
+}
+#gif {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.img-container{
+    height: 500px;
+    width: 500px;
 }
